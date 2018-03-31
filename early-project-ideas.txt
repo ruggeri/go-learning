@@ -1,0 +1,22 @@
+* Factors/bubble sort
+* Binary search
+* Merge Sort
+* Make change
+* Ghost
+* Maze Solver
+* Eight Queens
+* Sudoku
+* Memory Puzzle
+* Word Chains
+* Minesweeper
+* Sudoku
+* DFS/BFS
+* TicTacToe AI
+* Knight's Travails
+* Simon
+* Chess
+* Poker
+* Two queue stack.
+* LRUCache
+* Largest contiguous subsum
+* https://projecteuler.net/archives
