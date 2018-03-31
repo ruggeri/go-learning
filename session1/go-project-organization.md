@@ -13,3 +13,10 @@ The package declaration should be:
 Package names don't need to be globally unique.
 
 `go get` fetches code from github.
+
+`go fmt` anywhere formats.
+
+`go dep` is for dependency management. Btw, you prolly want a cmd
+package with each file having its own `package main` and main
+function. Otherwise you get yelled at for having multiple mains. In
+fact, just call them `main.go`.
