@@ -1,6 +1,5 @@
-## TODO
+## Unreviewed Materials
 
-* Effective Go
 * https://golang.org/doc/codewalk/
 * https://golang.org/doc/faq
 * http://exercism.io/languages/go/exercises
@@ -10,14 +9,33 @@
 
 * Composition. Concurrency.
 * Go generate. Go test. Golint.
+    * https://blog.golang.org/generate
 
 ## Advanced
 
-* https://blog.golang.org/generate
-* https://blog.golang.org/context
-    * https://golang.org/pkg/context/
+* Effective Go (I think this is overkill for students)
 * https://golang.org/ref/spec (spec of the implementation)
 * https://golang.org/pkg/ (list of all packages)
+* Interesting advanced features?
+    * https://blog.golang.org/context
+    * https://golang.org/pkg/context/
+
+## Useful Web Packages
+
+database/sql
+encoding/json
+html/template
+text/template
+http
+net
+
+## Assorted Advanced Packages
+
+reflect
+unsafe
+types
+sync
+atomic
 
 ## Assorted Unreviewed Blog Entries
 
