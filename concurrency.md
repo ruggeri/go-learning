@@ -1,11 +1,14 @@
 ## Concurrency
 
 * There's a section in the Little Go Book.
+    * I haven't reviewed it yet.
 * https://github.com/golang/go/wiki/LearnConcurrency
+    * I haven't reviewed it yet.
 
 ## Tour
 
 * https://tour.golang.org/list
+* I did this; notes below.
 
 1. Goroutines invoked by `go f()`
 2. Channels `ch := make(chan int)` Now you can `ch <- 123` and `<-ch`.

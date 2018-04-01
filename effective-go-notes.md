@@ -1,3 +1,6 @@
+These Effective Go notes are useful for me to know but are not
+particularly important for students right away I think.
+
 ## `new`
 
 Allocates zeroed space and returns a pointer. You can of course have

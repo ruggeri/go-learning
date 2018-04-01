@@ -1,3 +1,5 @@
+**I haven't looked at any of this stuff.**
+
 ## Web App Development
 
 General: how to do SQL? How to generate/parse JSON? How to render
@@ -9,3 +11,12 @@ templates? Looks like there is some codegen stuff?
 * https://github.com/gin-gonic/gin
 * https://github.com/astaxie/beego
 * https://github.com/jinzhu/gorm
+
+## Useful Core Web Packages
+
+database/sql
+encoding/json
+html/template
+text/template
+http
+net

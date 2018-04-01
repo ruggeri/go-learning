@@ -1,41 +1,22 @@
-## Unreviewed Materials
+## Topics To Teach Future Sessions
+
+1. Interfaces, downcasting.
+2. Channels/concurrency
+3. Embedding
+4. Webdev
+    * This is the only thing I would need to very substantially study
+      up on.
+
+## TODO FOR NED
 
 * https://golang.org/doc/codewalk/
-* https://golang.org/doc/faq
 * http://exercism.io/languages/go/exercises
 * Delve for debugging.
-
-## Later
-
-* Composition. Concurrency.
-* Go generate. Go test. Golint.
+* Go generate.
     * https://blog.golang.org/generate
+* Golint.
+* Everything else should be a matter of organizing **projects**.
 
-## Advanced
-
-* Effective Go (I think this is overkill for students)
-* https://golang.org/ref/spec (spec of the implementation)
-* https://golang.org/pkg/ (list of all packages)
-* Interesting advanced features?
-    * https://blog.golang.org/context
-    * https://golang.org/pkg/context/
-
-## Useful Web Packages
-
-database/sql
-encoding/json
-html/template
-text/template
-http
-net
-
-## Assorted Advanced Packages
-
-reflect
-unsafe
-types
-sync
-atomic
 
 ## Assorted Unreviewed Blog Entries
 
