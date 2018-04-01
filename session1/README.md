@@ -11,6 +11,8 @@
 * Read: https://hackernoon.com/the-beauty-of-go-98057e3f0a7d
     * Fair overview of pros/cons of Golang. Up through weaknesses is
       plenty though; rest is silly/blogspammy.
+* http://exercism.io/languages/go/exercises
+    * TODO: Must review.
 
 ## Goals
 

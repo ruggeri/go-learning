@@ -9,28 +9,23 @@
 
 ## TODO FOR NED
 
-* https://golang.org/doc/codewalk/
-* http://exercism.io/languages/go/exercises
-* Delve for debugging.
-* Go generate.
-    * https://blog.golang.org/generate
-* Golint.
+* Delve for debugging
 * Everything else should be a matter of organizing **projects**.
 
-
-## Assorted Unreviewed Blog Entries
+## Assorted Unreviewed/Advanced/Randos/Unimportant
 
 These are just unreviewed; maybe no good.
 
-* https://blog.golang.org/h2push
-* https://blog.golang.org/examples
-* https://blog.golang.org/pipelines
-* https://blog.golang.org/go-imagedraw-package
-* https://blog.golang.org/go-image-package
-* https://blog.golang.org/laws-of-reflection
-* https://blog.golang.org/gif-decoder-exercise-in-go-interfaces
-* https://blog.golang.org/gobs-of-data
-* https://blog.golang.org/json-and-go
-* https://blog.golang.org/go-concurrency-patterns-timing-out-and
-* https://blog.golang.org/share-memory-by-communicating
-* https://blog.golang.org/json-rpc-tale-of-interfaces
+* Reflection: https://blog.golang.org/laws-of-reflection
+* Testing: https://blog.golang.org/examples
+* Concurrency
+    * https://blog.golang.org/pipelines
+    * https://blog.golang.org/go-concurrency-patterns-timing-out-and
+    * https://blog.golang.org/share-memory-by-communicating
+* Images
+    * https://blog.golang.org/go-imagedraw-package
+    * https://blog.golang.org/go-image-package
+    * https://blog.golang.org/gif-decoder-exercise-in-go-interfaces
+* Tooling
+    * Go generate: https://blog.golang.org/generate
+    * Golint

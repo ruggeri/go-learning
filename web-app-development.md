@@ -14,9 +14,10 @@ templates? Looks like there is some codegen stuff?
 
 ## Useful Core Web Packages
 
+* encoding/json
+    * Uses reflection on names.
+* html/template
+    * Same as text/template but with HTML escaping for safety.
 database/sql
-encoding/json
-html/template
-text/template
 http
 net
