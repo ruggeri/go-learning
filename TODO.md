@@ -10,6 +10,8 @@
 ## TODO FOR NED
 
 * Delve for debugging
+  * https://github.com/derekparker/delve/blob/master/Documentation/cli/getting_started.md
+  * https://github.com/derekparker/delve/tree/master/Documentation
 * Everything else should be a matter of organizing **projects**.
 
 ## Assorted Unreviewed/Advanced/Randos/Unimportant

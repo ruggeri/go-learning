@@ -17,8 +17,10 @@ You need it for slices and for maps. You need to initialize
 those. It's not enough to new them. Though technically you can do
 that:
 
-    ptr := new([]int) // makes the zero slice: nil.
-    *ptr = make([]int, 100) // why do this?
+```
+ptr := new([]int) // makes the zero slice: nil.
+*ptr = make([]int, 100) // why do this?
+```
 
 You only use `make` for maps/slices/channels; it returns a value and
 not a pointer.
@@ -73,20 +75,22 @@ can also use an `ok`. You can also use a switch:
 
 * Shows an interesting *semaphore* pattern:
 
-    var sem = make(chan int, MaxOutstanding)
+```
+var sem = make(chan int, MaxOutstanding)
 
-    func handle(r *Request) {
-        sem <- 1    // Wait for active queue to drain.
-        process(r)  // May take a long time.
-        <-sem       // Done; enable next request to run.
-    }
+func handle(r *Request) {
+    sem <- 1    // Wait for active queue to drain.
+    process(r)  // May take a long time.
+    <-sem       // Done; enable next request to run.
+}
 
-    func Serve(queue chan *Request) {
-        for {
-            req := <-queue
-            go handle(req)  // Don't wait for handle to finish.
-        }
+func Serve(queue chan *Request) {
+    for {
+        req := <-queue
+        go handle(req)  // Don't wait for handle to finish.
     }
+}
+```
 
 * A `chan Request` can have the `Request` struct include a channel *by
   which to send the response*. Interesting pattern.
