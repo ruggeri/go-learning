@@ -18,9 +18,9 @@ func main() {
 * An array can contain only one kind of thing.
 * You can leave out the `4` and put `...`.
 * If you try `arr[5]` you will get an error.
-* An array is not resizable.
+* An array is **not** resizable.
 
-## `for` with Array
+## `for` with `range` and an Array
 
 ```
 package main
@@ -54,6 +54,6 @@ func main() {
 }
 ```
 
-* You can use it like a `while` loop.
-* You can even write `for { ... }` to infinite loop.
-* You can `break` out as usual.
+* You can use `for` like a `while` loop.
+* You can even write `for { ... }` to *infinite loop*.
+* You can `break` out as usual (not shown).

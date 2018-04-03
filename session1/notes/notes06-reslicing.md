@@ -1,4 +1,4 @@
-## Reslicing
+## Reslicing and "Popping"
 
 ```
 package main
@@ -21,7 +21,8 @@ func main() {
 ```
 
 * Assignment to `mySlice2` does a *reslice*.
-* It just creates another slice, with the *same* backing store, but with a shorter length.
+* It just creates another slice, with the *same* backing store, but
+	with a shorter length.
 * It does *not* remove 789 from the backing store.
 * `mySlice` continues to have length 3.
 

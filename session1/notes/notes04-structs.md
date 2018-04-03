@@ -30,7 +30,8 @@ func main() {
 
 * Structs just have instance variables. Not really any methods.
 * They don't have "constructor" functions.
-* You must *declare* a struct type before using it. You must declare all the variables needed.
+* You must *declare* a struct type before using it. You must declare
+	all the variables needed.
 
 ## Structs are copied like everything else
 

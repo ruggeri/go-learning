@@ -23,7 +23,7 @@ func main() {
 }
 ```
 
-* Even array values are copied.
+* Even array values are copied. This is *unlike* Ruby.
 
 ## Pointers
 
@@ -45,9 +45,11 @@ func main() {
 
 * Pointers store an *address in memory*.
 * The type of a pointer to an integer is `*int`.
-* You get the memory address of a variable by writing `&myFavoriteInteger`.
-* You can store a value by writing `*myFavoriteInteger = 123`.
-* You can load the value by writing `456 + *myFavoriteInteger`.
+* You get the memory address of a variable by writing
+	`&myFavoriteInteger`. The `&` is called the *reference operator*.
+* You can store a value by writing `*myFavoriteInteger = 456`. The `*`
+	is called the *dereference operator*.
+* You can load and use the value by writing `456 + *myFavoriteInteger`.
 
 ## Pointers Allow Mutation By Functions
 
@@ -72,4 +74,4 @@ func main() {
 }
 ```
 
-* Otherwise there is no way to modify a passed in value.
+* Without pointers there is no way to modify a passed in value.

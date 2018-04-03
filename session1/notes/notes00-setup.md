@@ -53,6 +53,7 @@ func main() {
 ```
 
 * Run `go build` in `hello_world/cmd/hello_world`.
+* This builds a `hello_world` executable.
 
 ## Hello World Packaging
 
@@ -63,6 +64,7 @@ func main() {
 ## import
 
 * You import libraries with `import "fmt"`.
-* You can use functions from those libraries like so: `fmt.Println(...)`.
+* You can use functions from those libraries like so:
+  `fmt.Println(...)`.
 * Only functions defined with a leading capital letter are *exported*.
 * You must always use the `fmt.` prefix.

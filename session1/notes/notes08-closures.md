@@ -47,3 +47,5 @@ func main() {
 	}
 }
 ```
+
+* Notice the type of the return value: `func() int`.

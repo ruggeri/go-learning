@@ -16,9 +16,11 @@ func main() {
 ```
 
 * `var sum int` *declares* a variable named `sum` of type `int`.
-* Every variable has a type. That variable can *only* hold values of that type.
+* Every variable has a type. That variable can *only* hold values of
+	that type.
   * `var sum int = 0.5` gives an error.
-* You don't need to give a value for a variable declaration. Uses a *zero value*.
+* You don't need to give a value for a variable declaration. Uses a
+	*zero value*.
   * For ints and float32, this is 0 or 0.0.
 
 ## For Loops
@@ -61,14 +63,14 @@ package main
 
 import "fmt"
 
-func f(i int, j int) int {
+func add(i int, j int) int {
 	return i + j
 }
 
 func main() {
 	sum := 0
 	for i := 0; i < 5; i++ {
-		sum = f(sum, i)
+		sum = add(sum, i)
 	}
 	fmt.Printf("Hello sum: %v!\n", sum)
 }
@@ -77,7 +79,8 @@ func main() {
 * Functions work mostly like JavaScript.
 * Explicitly returns.
 * Must declare types of arguments.
-* The `int` in between `)` and `{` is the *return type*. It's the type of the thing which is returned.
+* The `int` in between `)` and `{` is the *return type*. It's the
+	type of the thing which is returned.
 
 ## Basic types
 

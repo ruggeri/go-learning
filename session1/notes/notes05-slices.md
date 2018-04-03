@@ -9,7 +9,7 @@ type []YourTypeHere struct {
 }
 ```
 
-* You use slices much more than arrays.
+* We use slices much more than arrays.
 * The slice type is `[]int` vs `[3]int` which is an array type.
 
 ## Appending to a slice
@@ -39,7 +39,8 @@ func main() {
 ```
 
 * `append` doesn't mutate the slice's length/capacity/store.
-* Therefore you need to use the slice value returned by `append`. Most common is just to reassign it back to the original slice variable.
+* Therefore you need to save the slice value returned by `append`. Most
+  common is just to reassign it back to the original slice variable.
 * If there is no more capacity, `append` will double the store for you.
 
 ## Two slices can refer to the same store
@@ -61,7 +62,8 @@ func main() {
 }
 ```
 
-* The two distinct slice variables both store different slices; but they both refer to the same store.
+* The two distinct slice variables both store different slices; but
+  they both refer to the same store.
 
 ## For assignment, don't need `*[]int` for mutator functions
 
@@ -83,7 +85,7 @@ func main() {
 ```
 
 * This wasn't the case for passing a struct.
-* This is okay if you're just changing the backing store.
+* This is okay if you're just changing a value in the backing store.
 
 ## If you `append` must pass `*[]int`
 
