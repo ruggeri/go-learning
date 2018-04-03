@@ -1,3 +1,6 @@
+* https://github.com/cdarwin/go-koans
+    * Not stellar but pretty useful.
+
 * Simple demo of server using native libraries.
 * Factors/bubble sort
 * Binary search
