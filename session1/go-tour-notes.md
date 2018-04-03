@@ -23,7 +23,7 @@
     `Vertex{ X: 1, Y: 123 }` format.
 15. Arrays cannot be resized. You declare one like `myArr
     [10]int`. Also nice literals.
-16. Slices are `mySlice []int = myArr[1: 5]`. Basically like a pointer
+16. Slices are `mySlice []int = myArr[1:5]`. Basically like a pointer
     to an array. But knows its length. Can ommit start or end or both.
 17. `len(slice)` makes sense. You can also consider the *capacity*
     (`cap(slice)`). Insane: you can extend a slice by reslicing *past

@@ -5,6 +5,8 @@
 * Read: http://openmymind.net/assets/go/go.pdf
   * You can mostly ignore composition.
   * You can skip concurrency.
+* https://github.com/cdarwin/go-koans
+    * Not stellar but pretty useful.
 * https://golang.org/doc/code.html (how to setup workspace)
 * Check out plugins for VS Code and Atom.
 * Read: https://blog.golang.org/go-slices-usage-and-internals
@@ -12,7 +14,14 @@
     * Fair overview of pros/cons of Golang. Up through weaknesses is
       plenty though; rest is silly/blogspammy.
 * http://exercism.io/languages/go/exercises
+    * Pretty okay!
+* http://www.golangbootcamp.com/book/
     * TODO: Must review.
+
+## TODO
+
+* Read several numbers in. Calculate squares, print out.
+* Write an OO program to keep track of your cats.
 
 ## Goals
 
@@ -23,7 +32,18 @@
 * Structs
 * Pointers
 * Project setup
+* No concurrency. No methods or interfaces.
 
-## Project Ideas
+## Exercism Notes
 
-* Word counter.
+* bob: teaches regexp, strings. If/else.
+* Acronym: teaches for loop over split strings. Builder.
+* Space Age: teaches map. Also a typedef.
+* Hamming: multiple return. for/if.
+* IsIsogram: map. looping.
+* Reverse: builder.
+* Flatten array.
+* Sublist.
+* Tree building?
+* Tournament?
+* Considered up through "Flatten Array"
