@@ -3,7 +3,7 @@
 * Install Go via homebrew (`brew install go`).
     * Advice on workspace setup: https://golang.org/doc/code.html
 * Work through https://tour.golang.org/list.
-    * Please do this before Monday. Should be rapid.
+    * **Please do this before Monday**. Should be rapid.
     * You don't need to do the "Concurrency" one yet.
 * Bonus Resources:
     * You don't need to look at these, but it won't hurt.
@@ -16,7 +16,7 @@
 * Projects:
     * http://exercism.io/languages/go/exercises
 
-## Goals For Monday
+## Goals For Monday Lecture
 
 * Get used to strings/slices/maps
 * IO
