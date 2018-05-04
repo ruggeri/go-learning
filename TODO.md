@@ -1,11 +1,15 @@
 ## Topics To Teach Future Sessions
 
-1. Interfaces, downcasting.
 2. Channels/concurrency
 3. Embedding
 4. Webdev
     * This is the only thing I would need to very substantially study
       up on.
+
+## TODO: error interface
+
+`error` is an interface. Only method is `Error() string`. Show how you
+can use this on an alias with sqrt function.
 
 ## TODO FOR NED
 

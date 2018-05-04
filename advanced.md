@@ -10,9 +10,17 @@
     * A bunch of trivia questions uninteresting to students I think.
     * I reviewed this.
 
+## Reviewed
+
+* context (https://blog.golang.org/context)
+    * Not super interesting. Just used by requests to signal: "hey,
+      cancel this request." As in, let's say you make a DB call, and
+      hand it to a SQL driver. But then that takes too long. In the
+      meantime, you don't need the answer anymore. So you can cancel the
+      request by closing a channel.
+
 ## Assorted Advanced Packages (unreviewed)
 
-context (https://blog.golang.org/context)
 reflect
 unsafe
 atomic
