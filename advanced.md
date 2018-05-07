@@ -19,9 +19,16 @@
       meantime, you don't need the answer anymore. So you can cancel the
       request by closing a channel.
 
+## Reflect
+
+* I reviewed this. Not hyperinteresting.
+* Kinda interesting how reflect relates to interface. To get a
+  `reflect.Value` you call `reflect.ValueOf` on an `interface{}`.
+* If the `interface{}` stores a non-ptr value, you can't mutate it using
+  reflection, because the interface holds a copy of that value.
+
 ## Assorted Advanced Packages (unreviewed)
 
-reflect
 unsafe
 atomic
 
